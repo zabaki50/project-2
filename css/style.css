@@ -42,6 +42,7 @@ h3{
     height: 550px;
     background-position-x: right;
     background-position-y: center;
+    margin-bottom: 300px;
 }
 .boxes{
     width: 40%;
@@ -50,16 +51,26 @@ h3{
     margin-left: 5%;
     padding-left: 2%;
 }
-.boxShadow{
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 5px;
-    height: 65%;
+
+.BoxShadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-left: 7px solid orange;
 }
 .Experiences{
     background-image: url(../img/exp-bg.png);
     background-repeat: no-repeat;
-    height: 450px;
+    background-position: left;
+    height: 500px;
 }
-
-
-
+.boxes h3{
+    margin-top: 20px;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
